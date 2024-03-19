@@ -1,0 +1,64 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                          Dynamic DC of circuit1                          ***
+***                           3/7/2024 3:05:22 PM                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage 
+1             1.644  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:               D1
+Using model:         D816B
+
+Capacitance Terms:
+CAP                 2.242K
+
+Current Terms:
+ID                300.000m
+
+Resistance Terms:
+REQ                98.284m
+
+Voltage Terms:
+VD                  1.644 
+
+Power DC Terms:
+PD                493.271m
+PS                  0.000 
+
+DC Pin Currents:
+Id                300.000m
+
+Condition:
+State                   ON
+
+Device Variables:
+area                1.000 
+ic                  0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               I1
+V                  -1.644 
+Power DC Terms:
+PG                493.271m
+
+DC Pin Currents:
+ISource           300.000m
+
+
